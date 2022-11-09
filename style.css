@@ -376,7 +376,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .galerie .carousel .card:hover{
-    background: hsl(193, 69%, 61%);
+    background: hsl(322, 58%, 42%);
 }
 .galerie .carousel .card .box{
     display: flex;
