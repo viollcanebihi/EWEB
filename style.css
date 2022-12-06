@@ -536,6 +536,41 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+  @media screen and (max-width: 1150px){
+    .foto-neben-text {
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+    }
+    .foto {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .foto-neben-text p {
+      padding-left: 10%;
+      padding-right: 10%;
+      text-align: center;
+    }
+
+    .timeline ul li div {
+      width: 350px;
+      min-height: 200px;
+      height: fit-content;
+      flex-direction: column;
+    }
+    .timeline ul li div time {
+      width: 350px;
+      height: 20px;
+      padding-right: 0;
+    }
+    .timeline ul li div div {
+      width: 100%;
+      margin: 10px;
+      min-height: 130px;
+      height: fit-content;
+    }
+
+
 /* responsive media query start */
 @media (max-width: 1300px) {
     .home .max-width{
