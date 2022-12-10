@@ -13,6 +13,7 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
         </head>
     <body>
@@ -22,10 +23,10 @@
                 <div class="logo"><a href="#">Nebihi<span> Viollca</span></a></div>
                 <ul class="menu">
                     <li><a href="#home" class="menu-btn">Home</a></li>
-                    <li><a href="#uebermich" class="menu-btn">Über mich</a></li>
-                    <li><a href="#itskills" class="menu-btn">IT-Skills</a></li>
+                    <li><a href="#about" class="menu-btn">Über mich</a></li>
+                    <li><a href="#skills" class="menu-btn">IT-Skills</a></li>
                     <li><a href="#galerie" class="menu-btn">Galerie</a></li>
-                    <li><a href="#kontaktformular" class="menu-btn">Kontakt</a></li>
+                    <li><a href="#contact" class="menu-btn">Kontakt</a></li>
                 </ul>
                 <div class="menu-btn">
                     <i class="fas fa-bars"></i>
@@ -49,7 +50,7 @@
                 <h2 class="title">Über mich</h2>
                 <div class="about-content">
                     <div class="column left">
-                        <img src="images/nebihi_Viollca_profil.png" alt="">
+                        <img class="thumbnail" src="images/nebihi_Viollca_profil.png" alt="image">
                     </div>
                     <div class="column right">
                         <div class="text">Ich heisse Viollca und bin eine <span class="typing-2"></span></div>
@@ -105,51 +106,65 @@
         <!-- Timeline section start-->
         <div class="timeline">
             <div class="timeline__component">
-              <div class="timeline__date timeline__date--right">DATE</div>
+              <div class="timeline__date timeline__date--right">30.08.2020 – 30.08.2024</div>
             </div>
             <div class="timeline__middle">
               <div class="timeline__point"></div>
             </div>
             <div class="timeline__component timeline__component--bg">
-              <h2 class="timeline__title">TITLE</h2>
+              <h2 class="timeline__title">Bachelor in Wirtschaftsinformatik</h2>
               <p class="timeline__paragraph">
-                TEXT
+                - Wirtschaftsinformatik (24 ECTS)</br>
+                - Wirtschaft (12 ECTS)</br>
+                - Informatik (18 ECTS)</br>
+                - Grundlagen (12 ECTS)</br>
+                - Projekte & Praxis (3 ECTS)</br>
+                - Übergreifend (3 ECTS)
               </p>
             </div>
             <div class="timeline__component timeline__component--bg">
-              <h2 class="timeline__title">TITLE</h2>
+              <h2 class="timeline__title">Hilfsassistentin in statistischer Datenanalyse</h2>
               <p class="timeline__paragraph">
-                TEXT
-              </p>
-              <p class="timeline__paragraph">
-                TEXT
+                - Kommunikation mit Studienteilnehmenden</br>
+                - Zusammenführen der Datensätze</br>
+                - Literaturrecherchen</br>
+                - Allgemeine Administrationsaufgaben
               </p>
             </div>
             <div class="timeline__middle">
               <div class="timeline__point"></div>
             </div>
             <div class="timeline__component">
-              <div class="timeline__date">DATE</div>
+              <div class="timeline__date">01.07.2022 – aktuell </div>
             </div>
             <div class="timeline__component">
-              <div class="timeline__date timeline__date--right">DATE</div>
+              <div class="timeline__date timeline__date--right">07.07.2019 – 24.10.2019 </br>& </br>01.06.2020 – 31.07.2020</div>
             </div>
             <div class="timeline__middle">
               <div class="timeline__point"></div>
             </div>
             <div class="timeline__component timeline__component--bg">
-              <h2 class="timeline__title">TITLE</h2>
+              <h2 class="timeline__title">Human Resource Recruiter</h2>
               <p class="timeline__paragraph">
-                TEXT
+                - Bedarfsgerechtes Recruiting gemäss Zielvorgaben, 
+                inklusive Vorselektion, Vorstellunggesprächen sowie finaler Auswahl neuer Mitarbeiter in deutscher und französischer Sprache
+                </br>
+                - Bewerber- und Personaldatenbankverwaltung und pflege
+                </br>
+                - Erstellung von Arbeitszeugnissen und Zwischenzeugnissen
+                </br>
+                - Bearbeitung von Mitarbeiteranfragen
+                </br>
+                - Personaladministration
               </p>
             </div>
             <div class="timeline__component timeline__component--bottom timeline__component--bg">
-              <h2 class="timeline__title">TITLE</h2>
+              <h2 class="timeline__title">Bachelor in Betriebswirtschaft</h2>
               <p class="timeline__paragraph">
-                TEXT
-              </p>
-              <p class="timeline__paragraph">
-                TEXT
+                - Analysieren und entscheiden (5 ECTS)</br>
+                - Integrieren und implementieren (5 ECTS)</br>
+                - Kommunizieren und führen (5 ECTS)</br>
+                - Umfeld verstehen (5 ECTS)
               </p>
             </div>
             <div class="timeline__middle">
@@ -157,7 +172,7 @@
               <div class="timeline__point timeline__point--bottom"></div>
             </div>
             <div class="timeline__component timeline__component--bottom">
-              <div class="timeline__date">DATE</div>
+              <div class="timeline__date">30.07.2018 – 30.09. 2019</div>
             </div>
           </div>
 
@@ -202,6 +217,9 @@
             <section id="contact">
                 <h1>KONTAKT</h1>
                 <h1> <a href="https://github.com/viollcanebihi"><p>GitHub</p></a> </h1>
+                <div class="accounts">
+                    <a href="https://github.com/viollcanebihi"><img src="images/github.png" alt="GitHub"></a> <!-- www.flaticon.com -->
+                  </div>
                 </div>
             </section>
             <span> Portfoliopage <a href="#">Viollca Nebihi</a> | <span class="far fa-copyright"></span> EWEB H22 </span>

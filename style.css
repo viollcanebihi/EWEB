@@ -251,6 +251,22 @@ section .title::after{
     background: none;
 }
 
+/* Parallax scrolling effect Profilfoto*/ 
+.parallax {
+    /* The image used */
+    background-image: url("images/nebihi_Viollca_profil.png");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
 /* services section styling */
 .services, .galerie{
     color:#fff;
@@ -373,7 +389,7 @@ section .title::after{
 
 .timeline {
     margin: 0 auto;
-    max-width: 750px;
+    max-width: 1000px;
     padding: 25px;
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
@@ -591,11 +607,14 @@ section .title::after{
 
 /* footer section styling */
 footer{
-    background: #111;
+    background: url("images/hintergrund_eweb.png") no-repeat center;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+    min-height: 500px;
+    background-size: cover;    
 }
+
 footer span a{
     color: hsl(322, 58%, 42%);
     text-decoration: none;
@@ -603,6 +622,32 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
+.accounts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    padding-bottom: 2em;
+  }
+
+  .accounts img {
+    height: 5em;
+  }
+
+  .accounts img:hover {
+    animation-name: rotate;
+    animation-duration: 0.8s;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
 
   @media screen and (max-width: 1150px){
     .foto-neben-text {
@@ -768,4 +813,10 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
   }
