@@ -813,10 +813,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
-
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-      background-attachment: scroll;
-    }
-  }
-  }
+}

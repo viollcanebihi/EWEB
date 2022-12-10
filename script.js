@@ -71,6 +71,7 @@ $(document).ready(function(){
     });
 
     var image = document.getElementsByClassName('thumbnail');
-    new simpleParallax(image,
-        {orientation : 'right'});
+    new simpleParallax(image, {
+        delay: .6,
+        transition: 'cubic-bezier(0,0,0,1)'});
 });
